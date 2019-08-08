@@ -8,7 +8,7 @@ si (C > 17) entonces
 escriba "ingrese a la pelicula para adultos"
 sino
 si (C < 12) entonces
-escriba " ingrese a la pelicula para niños"
+escriba "ingrese a la pelicula para niños"
 sino
 escriba "ingrese a la pelicula para adolecentes"
 fin si
