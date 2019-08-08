@@ -1,9 +1,0 @@
-real A,M,V
-inicio
-escriba "sumando dos numeros"
-A <- 25
-M <- 15
-V <- A+M
-Llamar nueva_linea
-escriba "la suma es: ",V
-fin
