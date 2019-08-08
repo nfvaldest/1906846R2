@@ -1,16 +1,16 @@
-entero c
+entero C
 inicio
 escriba "ingresando a cine "
 llamar nueva_linea
 escriba "favor presentar cedula: "
-lea c
-si (c > 17) entonces
-escriba "ingrese a pelicula nenas"
-sino 
-si (c < 12) entonces
-escriba " ingrese a pelicula bebes"
+lea C
+si (C > 17) entonces
+escriba "ingrese a la pelicula para adultos"
 sino
-escriba "ingrese a pelicula adolecentes"
+si (C < 12) entonces
+escriba " ingrese a la pelicula para niños"
+sino
+escriba "ingrese a la pelicula para adolecentes"
 fin si
 fin si
 fin
