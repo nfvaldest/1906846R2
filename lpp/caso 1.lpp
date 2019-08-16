@@ -1,0 +1,69 @@
+real A,B,CA
+caracter C
+entero opcion2,base,h,area
+inicio
+escriba "ingrese un caracter del menu"
+llamar nueva_linea
+escriba "S para la suma"
+llamar nueva_linea
+escriba "R pa la resta"
+llamar nueva_linea
+escriba "caracter distinto 'R' o 'S' para terminar"
+llamar nueva_linea
+lea C
+caso C
+	'S': escriba "vamos a la suma"
+	llamar nueva_linea
+	escriba "ingrese el primer numero"
+	llamar nueva_linea
+	lea A
+	llamar nueva_linea
+	escriba "ingrese el segundo numero"
+	llamar nueva_linea
+	lea B
+	llamar nueva_linea
+	CA <- A+B
+	escriba "la suma es:", CA
+	
+	's': escriba "vamos a la suma"
+	llamar nueva_linea
+	escriba "ingrese el primer numero"
+	llamar nueva_linea
+	lea A
+	llamar nueva_linea
+	escriba "ingrese el segundo numero"
+	llamar nueva_linea
+	lea B
+	llamar nueva_linea
+	CA <- A+B
+	escriba "la suma es:", CA
+	
+	'R': escriba "vamos a la resta"
+	llamar nueva_linea
+	escriba "ingrese el primer numero"
+	llamar nueva_linea
+	lea A
+	llamar nueva_linea
+	escriba "ingrese el segundo numero"
+	llamar nueva_linea
+	lea B
+	llamar nueva_linea
+	CA <- A-B
+	escriba "la suma es:", CA
+	
+	'r': escriba "vamos a la resta"
+	llamar nueva_linea
+	escriba "ingrese el primer numero"
+	llamar nueva_linea
+	lea A
+	llamar nueva_linea
+	escriba "ingrese el segundo numero"
+	llamar nueva_linea
+	lea B
+	llamar nueva_linea
+	CA <- A-B
+	escriba "la suma es:", CA
+	sino: escriba "opcion invalida"
+fin caso
+fin
+	

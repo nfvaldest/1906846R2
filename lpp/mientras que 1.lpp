@@ -1,0 +1,9 @@
+entero numero
+inicio
+numero <- 8
+mientras (numero < 20) haga
+escriba numero
+lea numero
+fin mientras
+escriba numero
+fin

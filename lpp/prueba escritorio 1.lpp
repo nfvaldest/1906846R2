@@ -1,0 +1,19 @@
+entero numero,suma
+inicio
+numero<-1
+suma<-0
+escriba "______________"
+llamar nueva_linea
+Mientras (numero <= 10) Haga
+llamar obtener_caracter
+escriba "numero ",numero
+llamar nueva_linea
+suma <- suma + numero
+numero <- numero + 1
+escriba "suma ", suma
+llamar nueva_linea
+escriba "______________"
+llamar nueva_linea
+Fin Mientras
+escriba "suma total: ", suma,"  numero total: ", numero
+fin

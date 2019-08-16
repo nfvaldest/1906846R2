@@ -1,0 +1,25 @@
+entero numero,suma,contador
+inicio
+escriba "ingrese valor *Numero* "
+lea numero
+llamar nueva_linea
+escriba "ingrese valor *Suma* "
+lea suma
+llamar nueva_linea
+escriba "ingrese valor *Contador* "
+lea contador
+escriba "--------------"
+llamar nueva_linea
+Mientras (numero <= contador) Haga
+llamar obtener_caracter
+escriba "numero ",numero
+llamar nueva_linea
+suma <- suma + numero
+numero <- numero + 1
+escriba "suma ", suma
+llamar nueva_linea
+escriba "--------------"
+llamar nueva_linea
+Fin Mientras
+escriba "suma total: ", suma,"  numero total: ", numero
+fin
