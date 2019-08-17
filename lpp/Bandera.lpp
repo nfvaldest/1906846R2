@@ -9,11 +9,16 @@ cadena [2]bandera
 		escriba numero
 			si (bandera = "T") entonces
 			numero <- numero+3
-			bandera <- "z"
+			bandera <- "Z"
 			sino
 			numero <- numero+2
 			bandera <- "T"
 			fin si
+			escriba ","
 		fin mientras
-		escriba suma_serie
+		escriba "	numero"
+		llamar nueva_linea
+		escriba suma_serie,"	suma_serie"
+		llamar nueva_linea
+		escriba "Bandera quedo en : ",bandera
 	fin
