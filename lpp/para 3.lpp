@@ -1,0 +1,34 @@
+entero i,j,suma
+inicio
+	escriba "numeros pares"
+	llamar nueva_linea
+	llamar nueva_linea
+	para i <- 1 hasta 8 haga
+		escriba i
+		escriba "	par"
+		llamar nueva_linea
+		i <- i + 1
+	fin para
+	llamar nueva_linea
+	llamar nueva_linea
+	llamar nueva_linea
+	llamar nueva_linea
+	escriba "numeros impares"
+	llamar nueva_linea
+	llamar nueva_linea
+	suma <- 0
+	para i <- 0 hasta 8 haga
+		escriba i
+		escriba "	impar"
+		llamar nueva_linea
+		i <- i + 1
+		para j <- 5 hasta 7 haga
+			escriba "noche"
+			llamar nueva_linea
+		fin para
+		suma <- suma+1
+		escriba "fin ciclo:	",suma
+		llamar nueva_linea
+		llamar nueva_linea
+	fin para
+fin

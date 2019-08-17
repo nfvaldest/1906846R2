@@ -1,0 +1,27 @@
+entero i,j,suma,k,p
+inicio
+	para i <- 1 hasta 3 haga
+	escriba "_______________________________________________________________________________________________________________________________________________________________________"
+	llamar nueva_linea
+	escriba "descanso"
+	llamar nueva_linea
+	llamar nueva_linea
+		para j <- 1 hasta 4 haga
+		escriba "J",j," en i #",i
+			para p <- 3 hasta 5 haga
+			llamar nueva_linea
+			escriba "hh"
+			llamar nueva_linea
+				para k <- 1 hasta 3 haga
+					suma <- k+1
+					escriba suma,"kk"
+					llamar nueva_linea
+				fin para
+			fin para
+		escriba "pp"
+		llamar nueva_linea
+		llamar nueva_linea
+		llamar nueva_linea
+		fin para
+	fin para
+fin
