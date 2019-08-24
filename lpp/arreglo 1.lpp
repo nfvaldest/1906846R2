@@ -1,0 +1,177 @@
+entero n
+caracter x
+inicio
+	escriba "digite el codigo ascii: "
+	lea n
+	llamar nueva_linea
+	x <- car(n)
+	escriba "el caracter ascii de ",n," es: " ,x
+fin
+
+
+
+
+entero n
+caracter x
+inicio
+	escriba "digite el caracter ascii: "
+	lea x
+	llamar nueva_linea
+	n <- valor_ascii(x)
+	escriba "el codigo ascii de ",x," es: ",n
+fin
+
+
+
+
+entero n
+cadena [15]x
+inicio
+	x <- "victor peralta"
+	n <- longitud (x)
+	escriba "la longitud de en caracter ",x," es: ",n
+fin
+
+
+
+real r
+inicio
+	llamar inicializar_aleatorio ()
+	repita
+		r <- aleatorio()*10
+		escriba "el numero generado es: ",r
+		llamar nueva_linea
+	hasta r=0
+fin
+
+
+
+caracter resp
+real nota
+entero gana,pierde
+inicio
+	gana <- 0
+	pierde <- 0
+	repita
+		escriba "ingrese la nota	"
+		lea nota
+		si (nota >= 60) entonces
+			gana <- gana +1
+			sino pierde <- pierde +1
+		fin si
+		repita
+			escriba "desea continuar? S/N "
+			lea resp
+		hasta (resp = 'N') o (resp = 'n') o (resp = 'S') o (resp = 's')
+	hasta (resp = 'N') o (resp = 'n')
+	escriba "total aprobados 	",gana
+	llamar nueva_linea
+	escriba "total perdedores	", pierde
+fin
+
+
+
+caracter respuesta
+entero nota,s
+inicio
+	repita
+	escriba "ingrese la nota"
+	lea nota
+	repita
+		escriba "desea continuar? S/N"
+		lea respuesta
+	hasta (respuesta = 'S') o (respuesta = 'N')
+hasta (respuesta = 'N')
+escriba "que nota!"
+fin
+
+
+
+entero i
+caracter x
+inicio
+	para i <- 0 hasta 256 haga
+	x <- car (i)
+	escriba "El caracter ascii #",i," es ",x
+	llamar nueva_linea
+	fin para
+fin
+
+
+
+arreglo [2,4] de cadena [15] nombres
+entero filas,columnas
+inicio
+	nombres [1,1] <- "aniceta"
+	nombres [1,2] <- "romelia"
+	nombres [1,3] <- "mirolindo"
+	nombres [1,4] <- "rosario"
+	nombres [2,1] <- "temistocles"
+	nombres [2,2] <- "zoraines"
+	nombres [2,3] <- "paulino"
+	nombres [2,4] <- "carlina"
+	para filas <- 1 hasta 2 haga
+	llamar nueva_linea
+		para columnas <- 1 hasta 4 haga
+			escriba nombres [filas,columnas]," "
+		fin para
+	fin para
+fin
+
+
+
+arreglo [2,4] de cadena [15] nombres
+entero filas,columnas
+inicio
+	para filas <- 1 hasta 2 haga
+		para columnas <- 1 hasta 4 haga
+		lea nombres [filas,columnas]
+		fin para
+	fin para
+	llamar nueva_linea
+	llamar nueva_linea
+	llamar nueva_linea
+	para filas <- 1 hasta 2 haga
+	llamar nueva_linea
+		para columnas <- 1 hasta 4 haga
+			escriba nombres [filas,columnas]," "
+		fin para
+	fin para
+fin
+
+
+
+arreglo [9] de cadena [25] cifra
+entero n
+inicio
+	cifra[1]<-"8"
+	cifra[3]<-"7"
+	cifra[5]<-"1"
+	cifra[7]<-"6"
+	cifra[2]<-"30"
+	cifra[4]<-"24"
+	cifra[6]<-"0"
+	cifra[8]<-"5"
+	cifra[9]<-"parangacutirimicuaro"
+	para n <- 1 hasta 9 haga
+		escriba cifra[n]
+		llamar nueva_linea
+	fin para
+fin
+
+
+arreglo [9] de cadena [25] cifra
+entero n
+inicio
+	para n <- 1 hasta 9 haga
+		escriba "ingrese cifra #",n," "
+		lea cifra[n]
+	fin para
+	llamar nueva_linea
+	llamar nueva_linea
+	llamar nueva_linea
+	para n <- 1 hasta 9 haga
+		escriba "la cifra #",n," es:	",cifra[n]
+		llamar nueva_linea
+	fin para
+fin
