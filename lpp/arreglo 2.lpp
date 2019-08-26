@@ -2,23 +2,29 @@ Arreglo [10] de entero Vector
 Entero Fila, Columna,auxiliar
 
 Inicio
-vector [1]<-1
-vector [2]<-2
-vector [4]<-4
-vector [3]<-3
-vector [5]<-5
+escriba "digite primer vector	: "
+lea vector[1]
+escriba "digite segundo vector	: "
+lea vector[2]
+escriba "digite tercer vector	: "
+lea vector[3]
+escriba "digite cuarto vector	: "
+lea vector[4]
+escriba "digite quinto vector	: "
+lea vector[5]
+Llamar Nueva_linea
 	Escriba "Llenado de vector con numeros"
 	Llamar Nueva_linea
-		Para Fila <-1 hasta 5 haga 
-		     Escriba vector [fila]
+		Para Fila<-1 hasta 5 haga 
+		     Escriba vector[fila]
 		Fin Para
 	Llamar Nueva_linea
-	Para Fila <-1 hasta 5 haga
+	Para Fila<-1 hasta 5 haga
 		Para Columna <-1 hasta 5- Fila haga
-		     Si vector [columna]>vector [columna+1] entonces
-			Auxiliar <-vector [columna]
-		        vector [columna]<-vector [columna+1]
-		        vector [columna]<-auxiliar
+			Si vector[columna]>vector[columna+1] entonces
+			Auxiliar<-vector[columna]
+			vector[columna]<-vector[columna+1]
+			vector[columna+1]<-auxiliar
 		     Fin Si
 		 Fin Para
 	Fin Para
